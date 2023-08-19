@@ -9,4 +9,9 @@
    multi-line
    comments. */
 
-   console.log("Comments make your code more readable by others.");
+   console.log("Comments make your code more readable by others."); // I am excited to learn how to code javascript.
+
+   /* I wonder
+   what comments
+   I will leave
+   in the future. */
