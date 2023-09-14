@@ -8,7 +8,7 @@ let shuttleSpeed = 15000;
 let fuelLevel = 11000;
 let engineTemperature = 1200;
 let commandOverride = true;
-// BEFORE running the code, predict what will be printed to the console by the following statements:
+// BEFORE running the code, predict what will be printed to the console by the following statements: engines are off
 
 if (engineIndicatorLight === "green") {
    console.log("engines have started");
