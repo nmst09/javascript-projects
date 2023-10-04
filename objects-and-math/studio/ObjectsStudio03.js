@@ -1,3 +1,16 @@
+// Oxygen use function
+
+function selectByOxygenUse(arr) {
+  let candidate = arr[0];
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i].o2Used(1) < candidate.o2Used(1)) {
+      candidate = arr[i];
+    }
+  }
+  return candidate;
+}
+
+
 // Code your crewMass function here:
 
 
@@ -52,3 +65,5 @@ let candidateA = {
  
  let crew = [candidateB,candidateD,candidateF];
  
+ let selectedCandidateBonus = selectByOxygenUse(crew);
+console.log(oxygenExpended(selectedCandidateBonus));
